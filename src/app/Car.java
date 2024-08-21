@@ -6,14 +6,19 @@ public class Car {
         startElectricity();
         startCommand();
         startFuelSystem();
+        System.out.println("------------------------------\n" +
+                "Автомобіль працює справно");
     }
 
     private void startElectricity() {
+        System.out.println("\nЕлектрика працює справно");
     }
 
     private void startCommand() {
+        System.out.println("Команда запуску двигуна ✓");
     }
 
     private void startFuelSystem() {
+        System.out.println("Паливна система працює справно");
     }
 }
